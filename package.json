@@ -1,4 +1,11 @@
 {
+   "yuqueConfig": {
+    "baseUrl": "https://www.yuque.com/api/v2",
+    "login": "u46795",
+    "repo": "blog",
+    "mdNameFormat": "title",
+    "postPath": "source/_posts/yuque"
+  },
   "name": "yuque-hexo",
   "version": "1.9.5",
   "description": "A downloader for articles from yuque",
