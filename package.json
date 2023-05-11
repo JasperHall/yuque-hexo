@@ -1,4 +1,9 @@
 {
+   "scripts": {
+    "sync": "yuque-hexo sync",
+    "clean:yuque": "yuque-hexo clean",
+    "deploy": "npm run sync && hexo clean && hexo g -d",
+  },
    "yuqueConfig": {
     "baseUrl": "https://www.yuque.com/api/v2",
     "login": "u46795",
